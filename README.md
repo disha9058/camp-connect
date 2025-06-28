@@ -1,25 +1,41 @@
-# Campus Connect 🚀
+# 🏫 Campus Connect
 
-> A mentorship and social platform to connect juniors and seniors at Banasthali Vidyapith through chat, shared interests, and Q&A.
+**Campus Connect** is a mentorship and communication platform that connects juniors and seniors in a college environment. Built to streamline collaboration and guidance within academic campuses.
 
-## 📌 Features
+🌐 [Live Demo][https://campconnect.netlify.app/]
+---
 
-- 🧑‍🤝‍🧑 Discover and connect with peers based on branch and batch
-- 🔍 Filter by interests, branch, or year
-- 💬 Real-time chat (Firebase)
-- 📝 Profile management and user authentication
-- 🎨 Built with React, Vite, Shadcn-UI, Tailwind CSS, TypeScript
+## ✨ Features
 
-## 🛠 Tech Stack
-
-- React + TypeScript
-- Firebase (Auth + Firestore)
-- Tailwind CSS + Shadcn-UI
-- Vite (for fast builds)
-
-
-## 🧑‍💻 Author
-
-[Disha Bisht]
+- 🧑‍🎓 Create student profiles (junior/senior)
+- 🔍 Filter by batch, branch, and interests
+- 💬 Real-time chat system
+- 🔐 Authentication with Firebase
+- 🛠️ Built using Vite + React + Tailwind + Shadcn UI
 
 ---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React + TypeScript + Vite
+- **UI:** Tailwind CSS + Shadcn UI
+- **Backend:** Firebase (Auth, Firestore)
+- **Hosting:** Netlify
+- **Icons:** Lucide
+- **Forms:** React Hook Form
+
+---
+
+## 🛡️ Security
+
+All sensitive environment variables are secured via `.env` and ignored in version control.
+
+---
+
+## 🧪 Local Setup
+
+1. Clone the repo:
+```bash
+git clone https://github.com/disha9058/camp-connect.git
+cd camp-connect
+
